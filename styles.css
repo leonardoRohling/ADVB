@@ -2,6 +2,10 @@ html {
     scrollbar-width: thin;
 }
 
+button {
+    cursor: pointer;
+}
+
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -226,4 +230,67 @@ footer img {
     color: #3EAB49;
     font-size: 20px;
     font-weight: 600;
+}
+
+#fourSection  {
+    background-color: #E5E5E5;
+    height: 476px;
+    width: calc(100% - 50px);
+    padding: 25px;
+
+    h1 {
+        text-align: center;
+        color: #3EAB49;
+        font-weight: 900;
+        font-size: 55px;
+        margin: 0;
+    }
+}
+
+#institutionsGallery {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 70px;
+    width: 100%;
+    img {
+        max-height: 233px;
+    }
+}
+
+#fiveSection {
+    background-color: #1C1A1D;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        padding-top: 25px;
+        font-weight: 800;
+        font-size: 60px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    p {
+        padding: 0 20vw;
+        color: #FFFFFF;
+        font-size: 30px;
+
+        span {
+            font-weight: 800;
+            color: #3EAB49;
+        }
+        a {
+            text-decoration: none;
+            color: white
+        }
+    }
+
+    button {
+        height: 60px;
+        width: 200px;
+        font-size: 22px;
+    }
 }
